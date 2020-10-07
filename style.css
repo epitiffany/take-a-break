@@ -1,0 +1,45 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  margin: 2em;
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.glitchButton{
+  float: right;
+}
+
+.intro{
+  font-family:'Averia Libre', cursive;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top:20px;
+  border-radius: 30px;
+  border: 1px solid red;
+}
+
+button{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px; 
+  background-color: pink;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 150px;
+  
+}
+
+button:hover{
+  background-color: #afd4e3;
+}
+
+.buttons{
+  display:flex;
+}
